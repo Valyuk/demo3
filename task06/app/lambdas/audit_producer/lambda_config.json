@@ -11,10 +11,9 @@
 	"dependencies": [],
 	"event_sources": [
 		{
-			"type": "dynamodb",
-			"arn": "${Configuration.stream_arn}",
-			"batch_size": 100,
-			"starting_position": "LATEST"
+			"target_table": "Configuration",
+			"resource_type": "dynamodb_trigger",
+			"batch_size": 1
 		}
 	],
 	"env_variables": {
