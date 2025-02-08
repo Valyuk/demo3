@@ -25,7 +25,7 @@
 		"resource_type": "iam_policy",
 		"tags": {}
 	},
-	"iam_role": {
+	"Iam_role": {
 		"resource_type": "iam_role",
 		"principal_service": "dynamodb",
 		"predefined_policies": ["AmazonDynamoDBFullAccess"],
