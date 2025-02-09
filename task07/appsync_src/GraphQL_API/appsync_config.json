@@ -4,15 +4,17 @@
 	"primary_auth_type": "API_KEY",
 	"api_key_expiration_days": 7,
 	"schema_path": "schema.graphql",
-	"dataSource": {
-		"name": "EventsTable",
-		"type": "AMAZON_DYNAMODB",
-		"service_role_name": "AppSyncDynamoDBRole",
-		"dynamodb_config": {
-			"table_name": "EventsTable",
-			"aws_region": "eu-central-1"
+	"dataSources": [
+		{
+			"name": "EventsTable",
+			"type": "AMAZON_DYNAMODB",
+			"service_role_name": "AppSyncDynamoDBRole",
+			"dynamodb_config": {
+				"table_name": "EventsTable",
+				"aws_region": "eu-central-1"
+			}
 		}
-	},
+	],
 	"resolvers": [
 		{
 			"kind": "UNIT",
