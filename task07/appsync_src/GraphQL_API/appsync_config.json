@@ -20,7 +20,7 @@
 			"kind": "UNIT",
 			"type_name": "Mutation",
 			"field_name": "createEvent",
-			"data_source_name": "EventsTable",
+			"data_source_name": "Events",
 			"runtime": "JS",
 			"code_path": "resolvers/mutation/createevent/code.js"
 		},
@@ -28,7 +28,7 @@
 			"kind": "UNIT",
 			"type_name": "Query",
 			"field_name": "getEvent",
-			"data_source_name": "EventsTable",
+			"data_source_name": "Events",
 			"runtime": "JS",
 			"code_path": "resolvers/query/getevent/code.js"
 		}
